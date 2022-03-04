@@ -1,0 +1,60 @@
+
+<!--- index.html ---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+.Login{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #474e5d;
+  padding-top: 50px;
+       }
+<body>
+
+<body>
+<h2>Login</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="Login">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Login">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+
+<body>
+    <body style="background-color:lightBlue;">
+    <h1 id="myH1">Hello World Hassan!</h1>
+    <script src="index.js"></script>
+</body>
+
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+
+</body>
+</html>
+
+</html>
